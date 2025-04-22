@@ -24,27 +24,6 @@ This repository is dedicated to practicing and solving **DSA problems** using Ja
 
 ## Folder Structure
 
-dsa-in-js/
-├── basic-problems/                  # Basic DSA problems
-│   ├──                              
-│   ├──                              
-│   └── ...                           # Other basic problems
-├── arrays/                          # Array-related problems
-│   ├── basic-problems/              # Basic array problems
-│   │   ├── 
-│   │   ├── 
-│   │   └── ...                      # Other basic array problems
-│   ├── leetcode/                    # Leetcode array problems
-│   │   ├── twoSum.js                # Leetcode problem: Two Sum
-│   │   ├── 
-│   │   └── ...                      
-├── stack/                           # Stack-related problems and implementation
-│   ├── 
-│   ├── 
-│   └── ...                           
-└── README.md                        # Repository overview and instructions
-
-
 ### Folder Breakdown:
 - **basic-problems**: This folder contains simple algorithm problems such as string reversal, palindrome checking, and other fundamental exercises.
 - **arrays**: This folder includes both basic array problems (like finding maximum, removing duplicates) and Leetcode problems.
