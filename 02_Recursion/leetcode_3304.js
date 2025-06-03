@@ -10,7 +10,7 @@ var kthCharacter = function(k , word="a") {
     for(let i =0 ;i<word.length;i++){
        newStr += arr[((arr.indexOf(word[i])) + 1)%26]
     }
-   let str= word + newStr
+    let str= word + newStr
     
     return kthCharacter(k, word = str);
 };
