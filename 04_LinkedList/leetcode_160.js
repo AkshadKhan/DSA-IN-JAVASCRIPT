@@ -1,3 +1,5 @@
+
+
 var getIntersectionNode = function(headA, headB) {
     let stackA = [];
     let stackB = [];
@@ -31,15 +33,4 @@ var getIntersectionNode = function(headA, headB) {
 };
 
 
-let common = new ListNode(8);
-common.next = new ListNode(10);
 
-let headA = new ListNode(3);
-headA.next = new ListNode(7);
-headA.next.next = common;
-
-let headB = new ListNode(99);
-headB.next = new ListNode(1);
-headB.next.next = common;
-
-console.log(getIntersectionNode(headA, headB)); // ListNode with val = 8
