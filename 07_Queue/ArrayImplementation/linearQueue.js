@@ -48,12 +48,12 @@ class Stack {
 
 
 let s = new Stack();
-s.enqueue(1);
+s.enqueue(11);
 // console.log(s.front)
-s.enqueue(2);
-s.enqueue(3);
-s.enqueue(4);
-s.enqueue(5);
+s.enqueue(12);
+s.enqueue(40);
+// s.enqueue(4);
+// s.enqueue(5);
 
 s.dequeue()
 s.dequeue()
